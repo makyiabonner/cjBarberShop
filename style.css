@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Gloock&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+
+*::before,*::after,*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+header{
+    background-color: white;
+    height:70px;
+    display:flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 1px 0px 20px;
+    
+}
+.header-left, .header-right{
+    padding-left:30px;
+}
+.header-right{
+    padding-right:30px;
+}
+.header-left > h2{
+    font-size:40px;
+    font-style: italic;
+    font-family: 'Gloock', serif;
+}
+.header-right{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+
+}
+.header-right > li{
+    padding:30px;
+    font-size: 19px;
+    font-family: 'Open Sans', sans-serif;
+
+}
