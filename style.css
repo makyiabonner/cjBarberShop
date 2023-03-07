@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Gloock&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Chonburi&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
 *::before,*::after,*{
     box-sizing: border-box;
@@ -12,7 +12,8 @@
 /*Header Content*/
 header{
     z-index:1;
-    position: static;
+    position: sticky;
+    top:0px;
     background-color: black;
     height:70px;
     display:flex;
@@ -52,7 +53,7 @@ header{
 .main-img{
     background: url('https://images.unsplash.com/photo-1628274459813-74bc7e2c53b2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80');
     width:100%;
-    height:700px;
+    height:800px;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -65,30 +66,21 @@ header{
     justify-content: flex-end;
 }
 .main-img-text{
-    color:rgb(238, 204, 185);
+    color:white;
     font-family: 'Chonburi', cursive;
     font-size: 65px;
-    width:50%;
-    height:50%;
+    width:40%;
+    height:100%;
     word-spacing: 10px;
     display:flex;
-    align-items:center;
+    align-items:flex-start;
+    justify-content: center;
     flex-direction: column;
 }
-.main-img-text > h1{
-    padding-top: 100px;
-    padding-left:200px;
+.main-img-text > h1:nth-of-type(1){
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
 }
-.main-img-text > a{
-    background-color: orange;
-    font-size: 20px;
-    text-decoration: none;
-    color:white;
-    font-family: 'Open Sans', sans-serif;
-    border-radius:6px ;
-    text-align: center;
-    font-weight: bold;
-    margin-top:40px;
-    padding:12px;
-    width:250px;
+.main-img-text > h1:nth-of-type(2){
+    font-style: italic;
 }
