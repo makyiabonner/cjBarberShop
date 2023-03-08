@@ -84,3 +84,18 @@ header{
 .main-img-text > h1:nth-of-type(2){
     font-style: italic;
 }
+
+/*main text*/
+.main-text{
+    display: flex;
+    justify-content: flex-end;
+}
+img{
+    display: none;
+}
+.prc{
+    background-color: black;
+    height:40em;
+    width:90em;
+    color:white;
+}
