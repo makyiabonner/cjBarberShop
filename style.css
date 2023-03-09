@@ -146,8 +146,46 @@ footer{
 
 /* Gallery */
 .gallery{
+    display: flex;
     height:40em;
     background: linear-gradient(217deg, rgba(53, 4, 4, 0.8), rgba(255,0,0,0) 70.71%),            
                 linear-gradient(127deg, rgba(133, 84, 20, 0.8), rgba(0,255,0,0) 70.71%),            
                 linear-gradient(336deg, rgba(100, 3, 3, 0.8), rgba(0,0,255,0) 70.71%);
+    width:100%;
+    flex-direction: column;
+}
+.gallery-title{
+    width:25em;
+    align-self: center;
+    margin-top: 10px;
+}
+.gallery-title > h2{
+    font-size: 70px;
+    color:white;
+    font-family: 'Montserrat', sans-serif;
+    border-bottom:1px solid white;
+    text-align: center;
+}
+.gallery-imgs{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin:2em;
+}
+.g-image00,.g-image01,.g-image02,.g-image03,.g-image04{
+    box-shadow: 0px 10px 40px;
+    background-color: black;
+}
+.g-image00,.g-image01,.g-image02{
+    margin-right:5em;
+}
+.g-image00,.g-image01,.g-image02,.g-image04{
+    height:13em;
+    width:15em;
+    align-self: center;
+}
+.g-image03{
+    height:30em;
+    width:30em;
+    margin-right:5em;
 }
