@@ -189,3 +189,38 @@ footer{
     width:30em;
     margin-right:5em;
 }
+
+/* Footer */
+footer{
+    height: 35em;
+    padding:2em;
+    display: flex;
+    flex-direction: column;
+}
+footer section{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+}
+footer h1{
+    font-size:2em;
+    font-family: 'Montserrat', sans-serif;
+}
+footer li{
+    list-style:none;
+    padding:6px;
+}
+footer p, footer span, .footer-bottom > h1{
+    font-family: 'Open Sans', sans-serif;
+}
+.footer-bottom{
+    width:100%;
+    font-size: 12px;
+    border-top:1px solid white;
+    margin-top:30px;
+    height:5em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
