@@ -9,7 +9,7 @@
     padding:0;
 }
 body{
-    background-color: black;
+    background: black;
 }
 /*Header Content*/
 header{
@@ -172,19 +172,24 @@ footer{
     justify-content: center;
     margin:2em;
 }
-.g-image00,.g-image01,.g-image02,.g-image03,.g-image04{
+.g-image-col{
+    display: flex;
+    flex-direction: column;
+}
+.g-image-row{
+    display: flex;
+    flex-direction: row;
+}
+.g-image-fscrn,.g-image01,.g-image02,.g-image03,.g-image04,.g-image05,.g-image06,.g-image07,.g-image08{
     box-shadow: 0px 10px 40px;
     background-color: black;
 }
-.g-image00,.g-image01,.g-image02{
-    margin-right:5em;
-}
-.g-image00,.g-image01,.g-image02,.g-image04{
+.g-image01,.g-image02,.g-image04,.g-image05,.g-image06,.g-image07,.g-image08{
     height:13em;
     width:15em;
     align-self: center;
 }
-.g-image03{
+.g-image-fscrn{
     height:30em;
     width:30em;
     margin-right:5em;
